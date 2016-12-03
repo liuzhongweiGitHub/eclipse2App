@@ -139,8 +139,19 @@
   	<servlet-name>LogoutServlet</servlet-name>
   	<servlet-class>com.kaishengit.servlet.LogoutServlet</servlet-class>
   </servlet>
+   <servlet>
+   	<description>
+   	</description>
+   	<display-name>YYYYServlet</display-name>
+   	<servlet-name>YYYYServlet</servlet-name>
+   	<servlet-class>com.kaishengit.servlet.YYYYServlet</servlet-class>
+   </servlet>
   <servlet-mapping>
  	<servlet-name>LogoutServlet</servlet-name>
   	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>YYYYServlet</servlet-name>
+  	<url-pattern>/YYYYServlet</url-pattern>
   </servlet-mapping>
 </web-app>
